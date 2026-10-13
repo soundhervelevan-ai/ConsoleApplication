@@ -18,7 +18,7 @@ public class Region {
       void OpenApplication(){
           boolean isExit=false;
           while(!isExit){
-              if(res1.$Location.equals(CusLocation)) {
+              if(res1 !=null && res1.$Location.equals(CusLocation)) {
                   res1.Orders(sc);
 
                   if (res1.isOrdered) {
